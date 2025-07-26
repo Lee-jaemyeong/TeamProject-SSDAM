@@ -1,6 +1,9 @@
 # SSDAM
 ![스크린샷_27-7-2025_13223_](https://github.com/user-attachments/assets/7e10324a-9e41-4b6d-97f4-7fe313ebcca0)
 
+## Team GitHub
+- https://github.com/dpflaalee/sseudamsseudam
+
 ### 목차
 - 1️⃣ [프로젝트 개요](#프로젝트-개요)
 - 2️⃣ [기술 스택](#기술-스택)
