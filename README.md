@@ -1,5 +1,5 @@
 # SSDAM
-![스크린샷_27-7-2025_13048_](https://github.com/user-attachments/assets/d87e0f9e-b8b2-4d04-b28d-30f9738b55a5)
+![스크린샷_27-7-2025_13223_](https://github.com/user-attachments/assets/7e10324a-9e41-4b6d-97f4-7fe313ebcca0)
 
 ### 목차
 - 1️⃣ [프로젝트 개요](#프로젝트-개요)
