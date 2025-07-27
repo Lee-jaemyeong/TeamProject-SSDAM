@@ -23,6 +23,8 @@
 <hr/>
 
 ### 기술 스택
+<details>
+</details>
 
 <hr/>
 
