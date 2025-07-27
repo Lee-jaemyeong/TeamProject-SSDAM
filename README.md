@@ -81,7 +81,14 @@
 <hr/>
 
 ### 담당 기능
+#### 📺 시연 영상 (이미지 클릭시 유튜브로 이동됩니다.)
 
+[![Watch the video](https://img.youtube.com/vi/qy8u18SyypM/hqdefault.jpg)](https://www.youtube.com/watch?v=qy8u18SyypM&t=7s)
+
+1. 글, 댓글, 좋아요, 해쉬태그 CRUD 설계 및 기능 구현
+2. 대댓글 작성, 댓글과 대댓글 soft delete 구현
+3. Filter를 이용해 작성글의 공개범위 설정 기능 구현
+4. Json을 이용해 kakao map api 기능 구현
 <hr/>
 
 ### 데이터 베이스 설계
