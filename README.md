@@ -93,12 +93,43 @@
 
 ### 데이터 베이스 설계
 
-<img width="1310" height="782" alt="unnamed" src="https://github.com/user-attachments/assets/3b237117-1680-42ef-9137-5e557f416d69" />
+<img width="512" height="261" alt="unnamed" src="https://github.com/user-attachments/assets/3b237117-1680-42ef-9137-5e557f416d69" />
 
 <hr/>
 
 ### 트러블 슈팅
-
+<details>
+  <summary><strong>1. 글과 댓글 즉시 반영</strong></summary>
+  • <strong>문제 상황</strong>: 글과 댓글 작성시 페이지를 수동 리다이렉트해야만 반영되는 문제가 발생 <br/>
+  • <strong>원인 분석</strong>: useEffect, useCallback 등의 최적화 미흡 <br/>
+  • <strong>해결 방법</strong>: useCallback과 useEffect를 사용해 리렌더링을 최소화, 최신 데이터가UI에 즉시 반영될 수 있게 수정
+</details>
+<details>
+  <summary><strong>2. 글 목록 무한 스크롤 시 중복 데이터 로딩</strong></summary>
+  • <strong>문제 상황</strong>: 글 리스트에서 데이터를 중복해서 불러오는 오류 발생 <br/>
+  • <strong>원인 분석</strong>: 글 리스트를 불러올 때 기준값 누락 <br/>
+  • <strong>해결 방법</strong>: 글 리스트를 불러올 때 lastId를 기준으로 불러오도록 기준값 부여
+</details>
+<details>
+  <summary><strong>3. 지도 링크가 메인페이지에서 보이지 않는 오류</strong></summary>
+  • <strong>문제 상황</strong>: 로컬스토리지에 저장된 지도 링크를 메인 페이지에서 불러올 수 없는 오류 발생 <br/>
+  • <strong>원인 분석</strong>: 로컬스토리지에 저장된 링크를 사용하는 로직 누락 <br/>
+  • <strong>해결 방법</strong>: localStorage.getItem(‘kakaoMapLink’) 로직 부여<br/> → setLocationLink로 상태값 연동해 사용
+</details>
+<details>
+  <summary><strong>4. 비공개 상태인 리트윗 글 표시</strong></summary>
+  • <strong>문제 상황</strong>: 비공개 상태인 리트윗된 글이 리스트에 표시되는 문제 발생 <br/>
+  • <strong>원인 분석</strong>: 리트윗된 글의 공개범위가 private상태인지 확인하는 구문 누락 <br/>
+  • <strong>해결 방법</strong>: 리트윗한 글의 상태를 확인하는 공개범위 검사 조건 추가
+</details>
+<details>
+  <summary><strong>5. 비로그인 유저 좋아요 클릭</strong></summary>
+  • <strong>문제 상황</strong>: 비로그인 상태의 유저가 좋아요를 클릭 가능한 문제 발생 <br/>
+  • <strong>원인 분석</strong>: 좋아요를 누르는 조건에 Userid검사가 누락되어 발생 문제 <br/>
+  • <strong>해결 방법</strong>: if문을 사용해 !Userid라면 좋아요를 누를 시 로그인 오류 처리
+</details>
 <hr/>
 
 ### 느낀 점
+
+![느낀점](https://github.com/user-attachments/assets/ffb9fb8d-812a-4609-bed7-7f06844fa5f0)
