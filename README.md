@@ -27,9 +27,9 @@
 #### 🛠️ 기술 스택
 <details>
   <summary><strong>📌 메인 언어 & 기본 도구</strong></summary>
-  - Node.js 1.0.0
-  - React 18.3.1
-  - JavaScript
+- Node.js 1.0.0
+- React 18.3.1
+- JavaScript
 </details>
 <details>
   <summary><strong>⚙️ 서버 환경 및 웹 프레임워크</strong></summary>
