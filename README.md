@@ -23,9 +23,61 @@
 <hr/>
 
 ### 기술 스택
+
+#### 🛠️ 기술 스택
 <details>
+  <summary><strong>📌 메인 언어 & 기본 도구</strong></summary>
+  - Node.js 1.0.0
+  - React 18.3.1
+  - JavaScript
+</details>
+<details>
+  <summary><strong>⚙️ 서버 환경 및 웹 프레임워크</strong></summary>
+  - Express 5.1.0
+  - Next.js 13.4.13
+  - Nodemon 2.0.22
+</details>
+<details>
+  <summary><strong>📁 환경 변수 관리</strong></summary>
+  - dotenv 16.5.0
+</details>
+<details>
+  <summary><strong>🗄️ 데이터베이스 관련</strong></summary>
+  - MySQL 3.14.1
+  - Sequelize 6.37.7
+  - Sequelize CLI 6.6.3
+  - Axios 1.9.0
+</details>
+<details>
+  <summary><strong>🔒 보안 관련</strong></summary>
+  - bcrypt 6.0.0
+  - passport 0.7.0
+  - passport-local 1.0.0
+  - CORS 2.8.5
 </details>
 
+#### 🧰 활용 장비 및 라이브러리
+<details>
+  <summary><strong>🖼️ 파일 업로드 및 이미지 처리</strong></summary>
+  - Multer 2.0.1
+  - react-slick 0.30.3
+</details>
+<details>
+  <summary><strong>🎨 UI 및 디자인</strong></summary>
+  - Ant Design 4.24.16
+  - ant-design/icons 6.0.0
+  - styled-components 5.3.11
+  - react-calendar 6.0.0
+  - react-cookie 8.0.1
+</details>
+<details>
+  <summary><strong>🔄 상태 관리 및 라우팅</strong></summary>
+  - Redux 4.0.5
+  - Redux-Saga 1.1.3
+  - react-redux 8.0.5
+  - next-redux-wrapper 7.0.0
+  - react-router-dom 7.6.2
+</details>
 <hr/>
 
 ### 담당 기능
