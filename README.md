@@ -93,7 +93,7 @@
 
 ### 데이터 베이스 설계
 
-<img width="512" height="261" alt="unnamed" src="https://github.com/user-attachments/assets/8bebef2f-2d8b-486d-9fd3-f8dcf0fd21f7" />
+<img width="1310" height="782" alt="unnamed" src="https://github.com/user-attachments/assets/3b237117-1680-42ef-9137-5e557f416d69" />
 
 <hr/>
 
