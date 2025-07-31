@@ -85,22 +85,22 @@
 
 [![Watch the video](https://img.youtube.com/vi/qy8u18SyypM/hqdefault.jpg)](https://www.youtube.com/watch?v=qy8u18SyypM&t=7s)
 
-1. 글, 댓글, 좋아요, 해쉬태그 CRUD 설계 및 기능 구현
+**1. 글, 댓글, 좋아요, 해쉬태그 CRUD 설계 및 기능 구현**
   - React에서 게시글, 댓글, 좋아요, 해시태그 컴포넌트를 설계하고, Node.js(Express) 기반 REST API를 통해 CRUD 기능 구현
   - 클라이언트에서는 Axios를 통해 API 호출 및 상태 관리
 ---
 
-2. 대댓글 작성, 댓글과 대댓글 soft delete 구현
+**2. 대댓글 작성, 댓글과 대댓글 soft delete 구현**
   - 삭제 시 실제 삭제하지 않고 deleted 플래그를 true로 변경하는 Soft Delete 방식 적용
   - 프론트에서는 삭제된 댓글을 "삭제된 댓글입니다"로 표시하고, 자식 댓글(대댓글)은 유지되는 UI 구성
 ---
 
-3. Filter를 이용해 작성글의 공개범위 설정 기능 구현
+**3. Filter를 이용해 작성글의 공개범위 설정 기능 구현**
   - 게시글에 openScope(전체, 팔로워, 비공개) 값을 저장하고, API 요청 시 사용자 관계를 검사하여 접근 제어
   - React에서는 로그인 사용자 기준으로 글 목록과 상세 내용을 조건부 렌더링
 ---
 
-4. Json을 이용해 kakao map api 기능 구현
+**4. Json을 이용해 kakao map api 기능 구현**
   - React에서 Kakao Map JavaScript SDK를 사용해 장소 검색, 마커 표시, 위치 선택 기능 구현
   - 위치는 Kakao 링크를 통해 공유 가능
 <hr/>
