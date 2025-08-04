@@ -25,59 +25,43 @@
 ### 기술 스택
 
 #### 🛠️ 기술 스택
-<details>
-  <summary><strong>📌 메인 언어 & 기본 도구</strong></summary>
+**📌 메인 언어 & 기본 도구**
   • Node.js 1.0.0 <br/>
   • React 18.3.1 <br/>
   • JavaScript
-</details>
-<details>
-  <summary><strong>⚙️ 서버 환경 및 웹 프레임워크</strong></summary>
+**⚙️ 서버 환경 및 웹 프레임워크**
   • Express 5.1.0 <br/>
   • Next.js 13.4.13 <br/>
   • Nodemon 2.0.22
-</details>
-<details>
-  <summary><strong>📁 환경 변수 관리</strong></summary>
+**📁 환경 변수 관리**
   • dotenv 16.5.0 
-</details>
-<details>
-  <summary><strong>🗄️ 데이터베이스 관련</strong></summary>
+**🗄️ 데이터베이스 관련**
   • MySQL 3.14.1 <br/>
   • Sequelize 6.37.7 <br/>
   • Sequelize CLI 6.6.3 <br/>
   • Axios 1.9.0
-</details>
-<details>
-  <summary><strong>🔒 보안 관련</strong></summary>
+**🔒 보안 관련**
   • bcrypt 6.0.0 <br/>
   • passport 0.7.0 <br/>
   • passport-local 1.0.0 <br/>
   • CORS 2.8.5
-</details>
-
+  
 #### 🧰 활용 장비 및 라이브러리
-<details>
-  <summary><strong>🖼️ 파일 업로드 및 이미지 처리</strong></summary>
+**🖼️ 파일 업로드 및 이미지 처리**
   • Multer 2.0.1 <br/>
   • react-slick 0.30.3
-</details>
-<details>
-  <summary><strong>🎨 UI 및 디자인</strong></summary>
+**🎨 UI 및 디자인**
   • Ant Design 4.24.16 <br/>
   • ant-design/icons 6.0.0 <br/>
   • styled-components 5.3.11 <br/>
   • react-calendar 6.0.0 <br/>
   • react-cookie 8.0.1
-</details>
-<details>
-  <summary><strong>🔄 상태 관리 및 라우팅</strong></summary>
+**🔄 상태 관리 및 라우팅**
   • Redux 4.0.5 <br/>
   • Redux-Saga 1.1.3 <br/>
   • react-redux 8.0.5 <br/>
   • next-redux-wrapper 7.0.0 <br/>
   • react-router-dom 7.6.2
-</details>
 <hr/>
 
 ### 담당 기능
