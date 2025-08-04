@@ -29,33 +29,39 @@
   • Node.js 1.0.0 <br/>
   • React 18.3.1 <br/>
   • JavaScript <br/>
+  <br/>
 **⚙️ 서버 환경 및 웹 프레임워크** <br/>
   • Express 5.1.0 <br/>
   • Next.js 13.4.13 <br/>
   • Nodemon 2.0.22 <br/>
+  <br/>
 **📁 환경 변수 관리** <br/>
   • dotenv 16.5.0 <br/>
+  <br/>
 **🗄️ 데이터베이스 관련** <br/>
   • MySQL 3.14.1 <br/>
   • Sequelize 6.37.7 <br/>
   • Sequelize CLI 6.6.3 <br/>
   • Axios 1.9.0 <br/>
+  <br/>
 **🔒 보안 관련** <br/>
   • bcrypt 6.0.0 <br/>
   • passport 0.7.0 <br/>
   • passport-local 1.0.0 <br/>
   • CORS 2.8.5 <br/>
-  
+  <br/>
 #### 🧰 활용 장비 및 라이브러리 <br/>
 **🖼️ 파일 업로드 및 이미지 처리** <br/>
   • Multer 2.0.1 <br/>
   • react-slick 0.30.3 <br/>
+  <br/>
 **🎨 UI 및 디자인** <br/>
   • Ant Design 4.24.16 <br/>
   • ant-design/icons 6.0.0 <br/>
   • styled-components 5.3.11 <br/>
   • react-calendar 6.0.0 <br/>
   • react-cookie 8.0.1 <br/>
+  <br/>
 **🔄 상태 관리 및 라우팅** <br/>
   • Redux 4.0.5 <br/>
   • Redux-Saga 1.1.3 <br/>
